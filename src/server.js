@@ -7,7 +7,7 @@ const os = require('os');
 const PORT = 8000;
 const HOST = '0.0.0.0';
 const hostname = os.hostname();
-const color = GetEnvironmentVar('COLOR', 'blue');
+const color = GetEnvironmentVar('COLOR', 'red');
 
 // App
 const app = express();
